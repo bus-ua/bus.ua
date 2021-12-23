@@ -7,15 +7,10 @@ let Opens = true;
 
 
 const addOpen = (add) => {
-    // console.log(add)
     for (let i = 0; i < add.children.length; i++) {
         newArr = add.children[1];
         newArr2 = add.children[0].children[1].children[0];
-
-        // alert('asd')
-
     }
-    console.log(newArr)
 
     if (Opens === true) {
         newArr.classList.remove('active_menu');
