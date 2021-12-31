@@ -212,6 +212,8 @@ div {
   -webkit-box-shadow: 0px 16px 48px rgba(241, 238, 238, 0.16);
           box-shadow: 0px 16px 48px rgba(241, 238, 238, 0.16);
   border-radius: 24px;
+  position: relative;
+  z-index: 10000;
 }
 
 button {
@@ -471,9 +473,6 @@ body {
     width: 100%;
     margin-left: 0px;
     padding: 10px;
-    background: #ffffff;
-    -webkit-box-shadow: 0px 16px 48px rgba(0, 0, 0, 0.16);
-            box-shadow: 0px 16px 48px rgba(0, 0, 0, 0.16);
     border-radius: 24px;
   }
 }
